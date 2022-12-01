@@ -98,6 +98,7 @@ img{
 /* NOTE: All other images will need a class to style the width if you want them a diffrent size */
 
 h1{
+  font-family: 'Lobster', helvetica, san-serif;
   text-align: center;
   padding-top: 20px;
 }
