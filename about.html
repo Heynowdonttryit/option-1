@@ -41,7 +41,7 @@ You can change the google font, or add a new font.-->
     			<li><a href="index.html">Home</a></li>
     			<li><a href="about.html">Merch</a></li>
     			<li><a href="about.html">Reviews</a></li>
-    			<li><a href="about.html">Thank yous</a></li>
+    			
                 <!-- Some of these links above won't be developed - make sure those have a hashtag in the link address so it will keep users from visiting a broken page.-->
     		</ul>
     	</div><!-- end NAV container-->
@@ -57,14 +57,11 @@ You can change the google font, or add a new font.-->
       <div class="two-col">
             <!-- two-col will have two items in it that will be next to eachother -->
           <div class="medium-size">
-              <p>Nav based on codepen here: https://codepen.io/april6804/pen/rNpdRWP </p>
-              <p>The class called "grid" has styles in the styles.css media query. It will create multiple colums when the screen is larger.
-              When the screen is small the boxes stack for easy reading on a phone. </p>
-              <p>You can add more boxes here to be in the grid, but you might want to change the number of boxes across by finding the "grid-templete-columns" and adding or removing a "1fr" </p>
-              <p>I strongly suggest you DO NOT have text all the way across the website.</p>
+              <p>We at Owl World Records strive to work with local artist and make sure that our costumers have quality items. Aside from Record Store Day we do a varity of events such as discounts on Halloween items during October. </p>
+
 
           </div> <!-- END medium size-->
-          <img src="Pink Flyod wall.jpeg" alt="">
+          <img src="pinkflyodwall.jpeg" alt="">
       </div><!-- END two-col-->
 
 
@@ -90,17 +87,44 @@ You can change the google font, or add a new font.-->
         <h1>Owl World Records</h1>
         <div class="two-col">
               <!-- two-col will have two items in it that will be next to eachother -->
-            <img src="Queen, Innendo.jpeg" alt="">
+              <img src="queen.jpeg" alt="">
 
-            <img src="Scott Pilgrim vs. The World The Game Soundtrack.jpeg" alt="">
+              <img src="scottpilgrim.jpeg" alt="">
 
-            <img src="Twenty One Pilots Scaled and Icy.jpeg" alt="">
+              <img src="twentyonepilots.jpeg" alt="">
 
-            <img src="Bad Religion How could hell be any worse.jpeg" alt="">
+            <img src="bad.jpeg" alt="">
         </div><!-- END two-col-->
 
 
+        <!-- START OF FORM -->
+        <div class="form-container">
+          <form action="thankyou.html">
+        <!--  FORM ACTION will go to a FAKE Thank You page.  -->
+               <p> Message us with any questions, tell us about your favorite camping spots, or let us know if you want to host an event. <br>
+               We love seeing everyone's setup as every campervan is unique, so send us a photo.</p>
+               <br>
+               <label>Your Name: <br>
+               <input type="text" id="name" name="name" required></label>
 
+               <label>Email: <br>
+               <input type="email" id="email" name="email" required></label>
+
+               <label>Message: <br>
+               <textarea id="message" required></textarea></label>
+
+               <label id="newsletter"> <input type="checkbox" class="cursor" id="news" name="news" checked> Receive our newsletters</label>
+
+               <button type="submit" class="cursor" value="Submit">Submit</button>
+
+           </form>
+        </div> <!-- END OF CONTAINER DIV -->
+        <!-- END OF FORM -->
+
+        <!-- More information on forms see chapter 7 in our HTML AND CSS book.
+
+        Check out W3Schools also: https://www.w3schools.com/howto/howto_css_contact_form.asp
+        -->
 
 
 
